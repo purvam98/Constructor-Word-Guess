@@ -1,20 +1,23 @@
-# Contructor Hangman Game
+# Constructors-Word-Guess
 
-This is a terminal line hangman game using Inquirer. Inquirer is a Node npm package that allows you to create terminal line prompts. In this game, the user tries to guess a hidden word and receives feedback from the computer regarding whether or not the guesses are correct. 
+* Word_Guess command-line game using constructor functions.
 
-This is a game built during the UC Davis Extension coding bootcamp (Trilogy Education Services).
+# Instructions
 
-## How to Play
+* The completed game should meet the following criteria:
+* The completed game should be able to receive user input using the inquirer or prompt npm packages.
+*	Word: Used to create an object representing the current word the user is attempting to guess. This should contain word specific logic and data.
+	Letter: Used for each letter in the current word. Each letter object should either display an underlying character, or a blank placeholder (such as an underscore), depending on whether or not the user has guessed the letter. This should contain letter specific logic and data.
+*	You must keep track of the user's remaining guesses and prompt the user if they would like to end the game if none remain.
+*	Each constructor function should be in it's own file and be exported and required wherever needed.
+*	Look into function prototypes and use them for a few of your constructor's methods.
 
-Since this is a terminal line node application, you will need to have the inquirer npm package installed. You can start the game by typing "node index.js" in your terminal. This will prompt you to choose a letter. Continue choosing letters until you either complete the word or run out of guesses. The following is a screenshot of what the game looks like: 
+# Programs used
 
-![alt-text](game.png)
+* javascript
+* node.js
+* npm
 
-## Assignment Challenges
+# NPM packages used
 
-1. The first challenge was having ambiguous instructions that regimented the method we were to build this game. I had to interpret these instructions into practical steps to accomplish the task. Planning and executing your own method appears to be easier than following strict guidelines, given that the guidelines may counter some of your logical processing. 
-2. The second challenge was understanding the modularization at this (small) scale of an application. While it is meant to teach proper file and code structuring, this example was a bit more difficult to grasp because it may not be the most simple or straightforward way of creating this game. 
-
-## Technologies Used
-
-Node.js, npm, JavaScript including object constructors, inquirer npm package
+* Inquirer
